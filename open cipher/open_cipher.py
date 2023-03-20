@@ -1048,5 +1048,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
-#streamlit run streamlit_login.py
+#streamlit run streamlit_login.py https://github.com/mokuaomae254/mokuaomae254.git
 #streamlit run open_cipher.py

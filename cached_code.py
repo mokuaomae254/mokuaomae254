@@ -667,8 +667,8 @@ def crypto_quantitative_analysis():
 
 	with tab2:
 		
-		#topcryptos()
-		scrapping()
+		topcryptos()
+		#scrapping()
 	
 	
 
@@ -943,8 +943,8 @@ def main():
 	if choice == "Home":
 		#st.subheader("Home")
 		#st.write("Welcome to our platform!")
-		#topcryptos()
-		scrapping()
+		topcryptos()
+		#scrapping()
 	elif choice == "Login":
 		#st.subheader("Login Section")
 
@@ -1049,4 +1049,4 @@ def main():
 if __name__ == '__main__':
 	main()
 #streamlit run streamlit_login.py
-#streamlit run open_cipher.py
+#streamlit run cached_code.py

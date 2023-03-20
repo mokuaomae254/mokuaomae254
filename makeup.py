@@ -6,18 +6,7 @@ import matplotlib.pyplot as plt
 matplotlib.use('TkAgg')
 #import beautifulsoup4 as bs
 import requests
-@st.cache(allow_output_mutation=True)
-def data():
-    #data=pd.read_csv("satoshi 100 index data29.csv")
-    #return data
-    
 
-
-
-#st.text("RISK DISCLAIMER. \n\r       Before deciding to participate in the Crypto market,\n\ryou should carefully consider your investment objectives, \n\rlevel of experience and risk appetite. \n\r       Most importantly, do not invest money you cannot afford to lose.\n\rCrypto trading is very risky and you may lose all or some of your investments. \n\rAll the information, analyses, opinions, news, research, prices, or \n\rother information  are provided as general market commentary,\n\rand do not constitute or imply any investment advice.\n\r        Under no circumstances will OpenCipher  accept any liability for \n\rany loss or damage, including, any loss of profit, \n\rwhich may arise directly or indirectly from the use of\n\r or complete reliance on information contained \n\rin the given articles or in any analyses.")
-#st.dataframe(data())
-#st.dataframe(data)
-st.cache(suppress_st_warning= True)
 def ageis18():
     import streamlit as st
     import matplotlib.pyplot as plt
@@ -178,5 +167,5 @@ elif age>70 and age<=200:
 else:
     print("can not access the model.")
     
-#streamlit run portfolio_designv3.py
+#streamlit run makeup.py
     
