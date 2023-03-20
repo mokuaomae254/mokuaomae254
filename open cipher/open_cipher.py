@@ -1050,4 +1050,5 @@ if __name__ == '__main__':
 	main()
 #streamlit run streamlit_login.py https://github.com/mokuaomae254/mokuaomae254.git
 #https://github.com/mokuaomae254/quant-development.git
+
 #streamlit run open_cipher.py
