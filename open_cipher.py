@@ -946,8 +946,6 @@ def main():
 		#topcryptos()
 		scrapping()
 	elif choice == "Login":
-		#st.subheader("Login Section")
-
 		username = st.sidebar.text_input("User Name")
 		password = st.sidebar.text_input("Password",type='password')
 		if st.sidebar.checkbox("Login"):
